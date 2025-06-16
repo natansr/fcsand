@@ -32,12 +32,6 @@ The model can be selected directly via the GUI before running the embedding extr
 
 The system includes a user-friendly GUI that enables running the complete pipeline without coding. Users can load datasets, preprocess files, extract embeddings, build graphs, train GCN models, and apply clustering.
 
-<p align="center">
-  <img src="image.png" alt="GUI" width="600"/>
-</p>
-
-
-
 ---
 
 ## Modules
@@ -99,11 +93,14 @@ The system supports the following datasets (used in our experiments):
 
 - AMiner-12
 - DBLP
-- LAGOS-AND
+- LAGOS-AND 
 
 Example datasets are available for download:
 
-[Download Datasets (Google Drive)](https://drive.google.com/drive/folders/1jxtOWCOlS6vX6ewIQYNHmaMEZncQrkyW?usp=drive_link)
+[Download Datasets (Google Drive)](https://drive.google.com/drive/folders/1XZt9fdOVrLIc1mUkdykUlitegwXxYhRh?usp=drive_link)
+
+[LAGOS-AND](https://zenodo.org/records/7313380/files/LAGOS-AND-BLOCK-TRIMMED.csv.tar.gz?download=1)
+
 
 Datasets should be placed inside the `datasets/` directory, containing JSON files with the following structure:
 
@@ -128,7 +125,3 @@ Datasets should be placed inside the `datasets/` directory, containing JSON file
 - Designed for reproducibility, scalability, and experimentation.
 
 ---
-
-## Citation
-
-...
